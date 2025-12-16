@@ -1,7 +1,7 @@
 import requests
 import datetime as dt
 USERNAME = 'bomikim'
-TOKEN = "dkjlkwperwoeorio3040wjk"
+TOKEN = ""
 graphID = "graph1"
 pixela_endpoint = 'https://pixe.la/v1/users'
 

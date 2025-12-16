@@ -5,7 +5,7 @@ URL = "https://api.openweathermap.org/data/2.5/weather"
 parameters = {
     "lat": 37.566536,       # 위도 (서울)
     "lon": 126.977966,      # 경도 (서울)
-    "appid": "2c492a0e628ef630023a3927fc3fe7f1",  # 개인 API 키
+    "appid": "",  # 개인 API 키
     "exclude": "current,minutely,daily"
 }
 res = requests.get(url=URL, params=parameters)

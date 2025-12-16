@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 import datetime as dt
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
-CLIENT_ID = 'b3d186debde34a9c8e807773d327b930'
-CLIENT_SECRET = '36a9983f14aa4e11bdf2819fc9a3f0ff'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
 REDIRECT_URI = 'http://localhost:8888/callback'
 scope = "playlist-modify-private"
 sp_oauth = SpotifyOAuth(
